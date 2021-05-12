@@ -1,0 +1,50 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 35px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  font-size: 13px;
+  width: 23px;
+  height: 23px;
+  display: block;
+  background-color: #ff6229;
+  color: white;
+  font-weight: 500;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+.nav__reddot {
+  width: 5px;
+  height: 5px;
+  display: block;
+  background-color: #ff6229;
+  color: white;
+  font-weight: 500;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 32px;
+  bottom: 28px;
+}

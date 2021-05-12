@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/* Screens */
+@import "screens/welcome-header.css";
+@import "screens/login-form.css";
+
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  height: 1000vh;
+}
