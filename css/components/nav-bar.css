@@ -18,28 +18,16 @@
 }
 
 .nav__notification {
-  font-size: 13px;
-  width: 23px;
-  height: 23px;
-  display: block;
-  background-color: #ff6229;
-  color: white;
-  font-weight: 500;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 20px;
   bottom: 15px;
 }
+
 .nav__reddot {
-  width: 5px;
-  height: 5px;
-  display: block;
+  width: 8px;
+  height: 8px;
   background-color: #ff6229;
-  color: white;
-  font-weight: 500;
+
   border-radius: 50%;
   display: flex;
   justify-content: center;

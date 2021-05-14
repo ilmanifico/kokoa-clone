@@ -26,9 +26,7 @@
   color: rgba(0, 0, 0, 0.4);
   font-size: 14px;
 }
-
-.user-component__column span,
-.user-component__column i {
+.user-component__column-chevron {
   margin-left: 2px;
   color: rgba(0, 0, 0, 0.4);
 }
