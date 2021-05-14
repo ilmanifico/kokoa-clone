@@ -11,3 +11,12 @@
   align-items: center;
   margin-left: 14px;
 }
+.reddot {
+  width: 4.5px;
+  height: 4.5px;
+  background-color: #ff6229;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.grayline {
+  margin: 15px 0px;
+  border-top: var(--gray-border);
+}
+.grayline__column {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 20px 0px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+}

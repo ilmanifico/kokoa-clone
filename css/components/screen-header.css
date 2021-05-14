@@ -1,4 +1,5 @@
 .screen-header {
+  position: relative;
   padding: var(--header-space);
   display: flex;
   justify-content: space-between;
@@ -14,4 +15,14 @@
 
 .screen-header__icons i {
   margin-left: 18px;
+}
+
+.screen-header__relative {
+  position: relative;
+}
+
+.screen-header__reddot {
+  position: absolute;
+  right: 14px;
+  top: 43px;
 }
